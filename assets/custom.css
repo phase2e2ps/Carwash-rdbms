@@ -1,0 +1,33 @@
+/*===Client Login Form===*/
+form{
+    border: 3px solid #f1f1f1;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#input-form{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 18;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#label-form{
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+
+/*===Card===*/
+.col1{
+    margin-left: 15%;
+}
+
+
+/*===Services===*/
+#service{
+    border-radius: 10%;
+}
