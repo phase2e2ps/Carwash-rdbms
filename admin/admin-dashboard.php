@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE HTML>
 <html>
 
@@ -37,6 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="application/x-javascript">
@@ -63,6 +61,78 @@
     <!-- lined-icons -->
     <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
     <!-- //lined-icons -->
+    <style>
+        /* Common Card Design */
+        .four-agileits,
+        .four-agileinfo,
+        .four-wthree,
+        .four-w3ls-2,
+        .four-w3ls {
+            border-radius: 12px;
+            padding: 25px 20px;
+            text-align: center;
+            color: #fff;
+            font-family: "Segoe UI", sans-serif;
+            font-weight: 500;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            cursor: pointer;
+        }
+
+        .four-agileits:hover,
+        .four-agileinfo:hover,
+        .four-wthree:hover,
+        .four-w3ls-2:hover,
+        .four-w3ls:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }
+
+        /* Icon Style */
+        .icon {
+            font-size: 42px;
+            margin-bottom: 12px;
+            opacity: 0.9;
+        }
+
+        .four-text h3 {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+
+        .four-text h4 {
+            font-size: 26px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        /* Total Bookings */
+        .four-agileits {
+            background: linear-gradient(135deg, #212121, #424242);
+        }
+
+        /* New Bookings */
+        .four-agileinfo {
+            background: linear-gradient(135deg, #1a237e, #3949ab);
+        }
+
+        /* Completed Bookings */
+        .four-wthree {
+            background: linear-gradient(135deg, #2e7d32, #43a047);
+        }
+
+        /* Enquiries */
+        .four-w3ls-2{
+            background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+        }
+
+        /* Washing Points */
+        .four-w3ls {
+            background: linear-gradient(135deg, #004d40, #00796b);
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -172,7 +242,7 @@
                         <div class="col-md-3 four-grid">
                             <div class="four-agileits">
                                 <div class="icon">
-                                    <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="four-text">
                                     <h3>Total Bookings</h3>
@@ -189,7 +259,7 @@
                         <div class="col-md-3 four-grid">
                             <div class="four-agileinfo">
                                 <div class="icon">
-                                    <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
                                 </div>
                                 <div class="four-text">
                                     <h3>New Bookings</h3>
@@ -204,7 +274,7 @@
                         <div class="col-md-3 four-grid">
                             <div class="four-wthree">
                                 <div class="icon">
-                                    <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
                                 </div>
                                 <div class="four-text">
                                     <h3>Completed Bookings</h3>
@@ -217,7 +287,7 @@
                     </a>
                     <a href="manage-enquires.php">
                         <div class="col-md-3 four-grid">
-                            <div class="four-w3ls">
+                            <div class="four-w3ls-2">
                                 <div class="icon">
                                     <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
                                 </div>
@@ -236,7 +306,7 @@
                             <div class="col-md-3 four-grid">
                                 <div class="four-w3ls">
                                     <div class="icon">
-                                        <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
+                                        <i class="fa fa-tint" aria-hidden="true"></i>
                                     </div>
                                     <div class="four-text">
                                         <h3>Washing Points</h3>
